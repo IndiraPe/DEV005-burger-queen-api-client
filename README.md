@@ -88,6 +88,10 @@ Esta es la información que tenemos de la clienta:
 
 * `IMPORTANTE`, para mayor recorrido satisfactorio a través del proyecto, te sugerimos cambiar la pantalla a vista de tablet en modo `Vertical` , de preferencia `Ipad PRO 11`, que cuenta con las medidas: `834 x 1194`.
 * La aplicación trabaja con [API MOCK](https://bqac-4.onrender.com/), por lo que te sugerimos que cuentes con buena conexión de internet, de no ser asi, ser paciente hasta que los procesos(ejemplo: enviar órdenes, renderizar las listas en admin, etc) finalicen exitosamente, tomará solo unos segundos dependiento tu señal de internet.
+* Para ingresar a la aplicación hay 3 roles:
+     - Administrador: {  email: indira@burger.queen, password: 123456  }
+     - Mesero(a): {  email: luca@burger.queen, password: queen123  }
+     - Cocinero(a): {  email: kang@burger.queen, password: queen123  }
 * El diseño de la aplicación fue mejorado múltiples veces gracias a los test de usabilidad, culminando en la versión número tres, la cual fue construída con Angular 16 y Typescript.
 * Los colores base para el proyecto fueron: negro, dorado y tonos de gris.
 * La aplicación permite agregar, editar y eliminar personal o lista de productos del menú , el único usuario permitido para estas acciones, es el que tenga el rol de Administrador al loguearse a la aplicación.
